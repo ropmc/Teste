@@ -2,11 +2,11 @@ export default [
     {
         name: 'room',
         type: 'glbModel',
-        path: '/models/StudyingRoomProject.glb'
+        path: '/models/NewArtGallery.glb'
     },
     {
         name: 'videotexture',
         type: 'videoTexture',
-        path: '/textures/RastrinhoFixo.mp4'
+        path: '/textures/Strange Format.mp4'
     }
 ]

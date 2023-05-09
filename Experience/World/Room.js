@@ -9,7 +9,7 @@ export default class Room {
         this.resources = this.experience.resources;
         this.room = this.resources.items.room;
         this.actualRoom = this.room.scene;
-        console.log(this.actualRoom);
+        console.log(this.actualRoom.children);
 
         this.setModel();
         this.setAnimation();
@@ -27,15 +27,15 @@ export default class Room {
                 });
             }
 
-            if (child.name === "ScreenMap"){
+            if (child.name === "TvTela"){
                 child.material = new THREE.MeshBasicMaterial({
                     map: this.resources.items.videotexture,
                 });
             }
         })
         this.scene.add(this.actualRoom);
-        this.actualRoom.scale.set(0.11, 0.11, 0.11);
-        this.actualRoom.rotation.y = Math.PI;
+        this.actualRoom.scale.set(1, 1, 1);
+        //this.actualRoom.rotation.y = Math.PI;
     }
 
     setAnimation(){
