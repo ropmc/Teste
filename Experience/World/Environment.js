@@ -10,7 +10,7 @@ export default class Environment {
         this.resources = this.experience.resources;
 
         this.setSunlight();
-        this.createLightingRoom1();
+        //this.createLightingRoom1();
         //this.createLightingRoom2();
         //this.createLightingRoom3();
         //this.createPilarLighting();

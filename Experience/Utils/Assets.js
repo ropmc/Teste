@@ -2,7 +2,7 @@ export default [
     {
         name: 'room',
         type: 'glbModel',
-        path: '/models/NewArtGallery.glb'
+        path: '/models/ArtGalleryTeste.glb'
     },
     {
         name: 'videotexture',
