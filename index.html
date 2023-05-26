@@ -58,7 +58,7 @@
         height: 104px;
         background-color: rgba(0,0,0,0.5);
         z-index: 5;
-        bottom : 180px;
+        bottom : 90px;
         right: 0;
         display: none;
         border-radius: 100%;
@@ -71,7 +71,7 @@
         background-color: rgba(0,0,0,0.5);
         z-index: 5;
         left:0;
-        bottom: 180px;
+        bottom: 90px;
         display: none;
         border-radius: 100%;
       }
@@ -133,7 +133,7 @@
           var eventData = { x: stickData.x, y: stickData.y};
           var event = new CustomEvent ('stickDataUpdate', { detail: eventData });
           document.dispatchEvent(event);
-          console.log(eventData);
+          //console.log(eventData);
         }
 
         //setInterval(function() {
@@ -149,7 +149,7 @@
           var eventData = { x: stickData2.x, y: stickData2.y};
           var event = new CustomEvent ('stickDataUpdate2', { detail: eventData });
           document.dispatchEvent(event);
-          console.log(eventData);
+          //console.log(eventData);
         }
 
         //setInterval(function() {
